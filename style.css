@@ -1,0 +1,177 @@
+body{
+	background: linear-gradient(to right ,#C1E3FF, #ABC7FF );
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	padding: 10px;
+	font-family:"open Sans","sans-serif;";
+}
+h1 {
+	font-family:"open Sans","consolas";
+	font-size: 2em;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 850px;
+	height: 50px;
+	text-align: center;
+
+
+}
+h1:hover {
+	text-shadow: 5px 5px 10px gold;
+	box-shadow: 10px 10px 10px grey;
+}
+a:link {
+	color:lawngreen;
+}
+a:visited {
+	color:lawngreen;
+}
+a:hover {
+	color: blue;
+}
+#NeuralNetworks {
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 450px;
+	height: 100px;
+	text-align: center;
+}
+.container {
+	width: 250px;
+	height: 250px;
+	background-color:skyblue;
+	clip-path: circle(95% at 0 0);
+	transition: all 2s ease;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+	float: left;
+	font-family:"open Sans","sans-serif;";
+	font-size: 2em;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	background-blend-mode:darken; 
+
+}
+.container:hover {
+	clip-path: circle(100% );
+	background-blend-mode:multiply;
+	float: left;
+}
+
+.container:active {
+	clip-path: circle(100% );
+    background-blend-mode:multiply;
+    float: left;
+}
+.container2{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+	clip-path: circle(50%);
+	transition: all 2s ease-in-out;
+}
+.container2:hover {
+	clip-path: circle(100%);
+    background-blend-mode:multiply;
+    float:left;
+}
+.container2:active {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+}
+.container3{
+	float: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 75% 94%, 51% 100%, 24% 93%, 0 100%);
+    transition: all 1s ease-in-out;
+}
+
+.container3:hover {	
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 51% 100%, 100% 100%, 0 100%);
+	background-blend-mode:multiply;
+}
+
+.container3:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+}
+.container4{
+	float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 72% 50%, 75% 100%, 50% 50%, 0 50%);
+    transition: all 1s ease-in-out;
+}
+
+.container4:hover {	
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 0 100%, 0 100%);
+}
+
+.container4:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+}
+.container5{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    transition: all 1s ease-out;
+}
+
+.container5:hover {	
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 0 100%, 0 100%);
+}
+
+.container5:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+}
+.container6{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+	clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    transition: all 1s ease-out;
+}
+
+.container6:hover {	
+clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 25% 25%, 100% 0, 0 0, 0 100%, 0 100%, 100% 100%, 100% 0%);
+}
+
+.container6:active {
+	margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;	
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 25% 25%, 100% 0, 0 0, 0 100%, 0 100%, 100% 100%, 100% 0%);
+}
